@@ -1,0 +1,6 @@
+= CLJS: Starter Kit
+
+== Getting started
+
+- yarn
+- yarn dev

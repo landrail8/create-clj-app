@@ -1,0 +1,19 @@
+{
+  "name": "create clj app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "shadow-cljs watch app",
+    "release": "shadow-cljs release app",
+    "server": "shadow-cljs server",
+    "clean": "rm -rf target && rm -rf public/js"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.15.2"
+  },
+  "dependencies": {
+    "highlight.js": "11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
